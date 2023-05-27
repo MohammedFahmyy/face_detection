@@ -5,7 +5,7 @@ import imutils
 class FaceDetection:
 
     def detect(self):
-        path = r"C:\Users\the5b\Desktop\Test"
+        path = "Test"
         Files = os.listdir(path)
         for File in Files:
             imgpath = os.path.join(path,File)
